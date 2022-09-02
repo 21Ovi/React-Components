@@ -9,7 +9,9 @@ const Home = () => {
     navigate("/dropdownMenu");
   };
 
-  const dropdownTreeHandler = () => {};
+  const dropdownTreeHandler = () => {
+    navigate("/dropdownTree");
+  };
 
   return (
     <div>
