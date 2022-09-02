@@ -1,13 +1,8 @@
 import React from "react";
-
-import DropdownMenu from "./components/dropdown/DropdownMenu";
+import MainRoute from "./Routes";
 
 const App = () => {
-  return (
-    <div>
-      <DropdownMenu text={"Dropdown Menu"} />
-    </div>
-  );
+  return <MainRoute />;
 };
 
 export default App;
